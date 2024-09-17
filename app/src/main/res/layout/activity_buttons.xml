@@ -31,14 +31,16 @@
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         app:icon="@drawable/baseline_star_24"
-        android:text="Button Text"/>
+        android:text="Button Text"
+        />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:id="@+id/close_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Voltar"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        />
 
 </LinearLayout>
